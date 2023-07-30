@@ -1,0 +1,42 @@
+.modal {
+
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 30px;
+
+
+    &.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-window {
+
+        background-color: #ffffff;
+        width: 100%;
+        max-width: 500px;
+        padding: 15px;
+
+        .modal-window-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .modal-window-body {
+        }
+
+        .modal-window-footer {
+            display: flex;
+            justify-content: end;
+        }
+
+    }
+
+}

@@ -1,0 +1,86 @@
+.app-bar {
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 70px;
+    max-height: 70px;
+
+    .app-bar-title {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .app-bar-link {
+        font-weight: 600;
+        cursor: pointer;
+        padding: 10px 0;
+    }
+
+}
+
+input {
+    padding: 10px 15px;
+    font: inherit;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #efefef;
+    border: none;
+    border-radius: 10px;
+    color: #333333;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.block {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.map {
+    width: '800px';
+    height: '550px';
+}
+
+.authorization-button {
+    background-color: #F44145;
+    color: #efefef;
+}
+
+select {
+    padding: 10px 15px;
+    font: inherit;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.left-section {
+    flex: 1;
+    margin: 20px 20px;
+}
+
+.right-section {
+    margin: 20px 20px;
+}
+
+.inline-block {
+    flex: 1;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.delivery-block {
+    display: flex;
+}
